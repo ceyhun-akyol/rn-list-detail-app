@@ -14,9 +14,12 @@ cd rn-list-detail-app
 ## Used Libraries
 
 - React Native
+- react-navigation
 - TypeScript
 - Redux
 - Redux Saga
+- Async-storage
+- redux-persist
 
 ## Features
 
