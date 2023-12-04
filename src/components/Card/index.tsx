@@ -1,10 +1,9 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import { Text, ImageBackground, Image, Pressable } from 'react-native';
 import { useDispatch } from 'react-redux';
-
-// eslint-disable-next-line import/no-unresolved
-import { ItemType } from 'src/screens/List';
 import { updateCart } from '@store/cart/actions';
+import { ItemType } from 'src/types';
 import StarIcon from '../../resources/icons/star.png';
 
 import styles from './styles';

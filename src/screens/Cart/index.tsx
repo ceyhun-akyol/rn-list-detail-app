@@ -9,21 +9,11 @@ import {
 } from 'react-native';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import Input from '@components/Input';
-import Card from '@components/Card';
 import { selectCartItems } from '@store/cart/selectors';
 import { updateCart } from '@store/cart/actions';
-import { RootStackParamList } from '../../appStack';
+import { CartItemType } from 'src/types';
 
 import styles from './styles';
-
-export type CartItemType = {
-  name: string;
-  price: string;
-  id: string;
-  count: number;
-};
 
 function CartPage(): JSX.Element {
   const dispatch = useDispatch();

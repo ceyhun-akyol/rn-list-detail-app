@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import { CartItemType } from 'src/screens/Cart';
+import { CartItemType } from 'src/types';
 import { UPDATE_CART } from './actions';
 
 export const INITIAL_STATE: { items: CartItemType[] } = {

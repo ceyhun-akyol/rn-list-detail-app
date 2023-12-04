@@ -8,22 +8,12 @@ import Input from '@components/Input';
 import Card from '@components/Card';
 import { showDetail, updateList } from '@store/list/actions';
 import { selectList } from '@store/list/selectors';
+import { ItemType } from 'src/types';
 import { RootStackParamList } from '../../appStack';
 
 import styles from './styles';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'List', 'AppStack'>;
-
-export type ItemType = {
-  createdAt: string;
-  name: string;
-  image: string;
-  price: string;
-  description: string;
-  model: string;
-  brand: string;
-  id: string;
-};
 
 function ListPage({ navigation }: Props): JSX.Element {
   const dispatch = useDispatch();

@@ -12,7 +12,7 @@ import { selectCartItems } from '@store/cart/selectors';
 // screens
 import ListPage from './screens/List';
 import DetailPage from './screens/Detail';
-import CartPage, { CartItemType } from './screens/Cart';
+import CartPage from './screens/Cart';
 
 // assets
 import HomeIcon from './resources/icons/home.png';

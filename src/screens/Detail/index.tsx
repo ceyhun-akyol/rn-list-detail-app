@@ -12,8 +12,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectDetail } from '@store/list/selectors';
 
 import { updateCart } from '@store/cart/actions';
-import { ItemType } from '../List';
 
+import { ItemType } from 'src/types';
 import StarIcon from '../../resources/icons/star.png';
 
 import styles from './styles';

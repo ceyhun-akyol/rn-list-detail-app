@@ -1,4 +1,4 @@
-import { ItemType } from 'src/screens/List';
+import { ItemType } from 'src/types';
 import { SHOW_DETAIL, UPDATE_LIST } from './actions';
 
 export const INITIAL_STATE: { items: ItemType[]; detail: ItemType | null } = {
